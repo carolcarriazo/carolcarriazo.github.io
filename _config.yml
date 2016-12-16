@@ -1,0 +1,14 @@
+title: carol's blog
+baseurl: ""
+
+date_format: "%d-%m-%Y"
+
+# Build settings
+kramdown:
+  input: GFM
+permalink: pretty
+
+# Third-party services
+# just leave someone empty to disable it
+google_analytics:
+email: carolcarriazo@gmail.com
