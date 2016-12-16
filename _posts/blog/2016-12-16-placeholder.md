@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  test post 1
-date:   '`r format(Sys.Date(), "%Y-%m-%d")`'
+date:   '2016-12-16'
 category: blog
 ---
 
