@@ -3,6 +3,7 @@
 ---
 
 @charset "utf-8";
+@import url(https://fonts.googleapis.com/css?family=Merriweather:400,400italic,700);
 
 $base-font-family: Merriweather, Helvetica, Arial, sans-serif;
 $base-font-size:   16px;
@@ -16,7 +17,6 @@ $meta-color-blog:   #a45743;
 $meta-color-found:	#a48843;
 $border-color: #ddd;
 
-@import url(://fonts.googleapis.com/css?family=Merriweather:400,400italic,700);
 @import "color";
 @import "base";
 @import "layout";
