@@ -1,6 +1,7 @@
 title: carol's blog
 baseurl: ""
-
+description: carving out my little corner of internet.
+url: carolcarriazo.github.io
 date_format: "%d-%m-%Y"
 
 # Build settings
