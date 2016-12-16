@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  test post 1
-date:   '2016-12-16 16:28:00'
+date:   2016-12-16 16:28:00
 category: blog
 ---
 
