@@ -38,7 +38,50 @@ main {
     > li {
         line-height: 1.75;
         span {
-            color: $meta-color;
+        	
+            color: /* in index */ $meta-color-blog;
+            margin-right: 1.5rem;
+            font-size: $small-font-size;
+        }
+        a {
+            color: $text-color;
+            text-decoration: none;
+            &:hover {
+                color: black;
+                
+            }
+        }
+    }
+}
+.categories.blog {
+    list-style: none;
+    padding: 0;
+    > li {
+        line-height: 1.75;
+        span {
+        	
+            color: /* in index */ $meta-color-blog;
+            margin-right: 1.5rem;
+            font-size: $small-font-size;
+        }
+        a {
+            color: $text-color;
+            text-decoration: none;
+            &:hover {
+                color: black;
+                
+            }
+        }
+    }
+}
+.categories.found {
+    list-style: none;
+    padding: 0;
+    > li {
+        line-height: 1.75;
+        span {
+        	
+            color: /* in index */ $meta-color-found;
             margin-right: 1.5rem;
             font-size: $small-font-size;
         }
@@ -62,7 +105,7 @@ main {
     .post-meta {
         margin: 0;
         text-align: center;
-        color: $meta-color;
+        color: /* in post */ $meta-color-blog;
         font-size: $small-font-size;
     }
 }
