@@ -1,6 +1,9 @@
 ---
 # The scss file which include files from _sass/
 ---
+<head>
+<link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+</head>
 
 @charset "utf-8";
 
@@ -16,7 +19,6 @@ $meta-color-blog:   #a45743;
 $meta-color-found:	#a48843;
 $border-color: #ddd;
 
-@import url('https://fonts.googleapis.com/css?family=Merriweather');
 @import "color";
 @import "base";
 @import "layout";
