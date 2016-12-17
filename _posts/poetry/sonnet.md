@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  sonnet xviii
-date:   2016-12-17 16:04:00
+date:   "2016-12-17 16:04:00"
 category: poetry
 ---
 
