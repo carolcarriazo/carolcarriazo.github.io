@@ -1,6 +1,6 @@
 ---
 layout: post
 title:  template
-date:   '`r format(Sys.Date(), "%B %d, %Y")`'
-category:
+date:   2016-mm-dd 09:00:00
+category: found
 ---
