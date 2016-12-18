@@ -4,8 +4,9 @@ title:  strasbourg
 date:   2016-12-18 23:00
 category: blog
 ---
-
+<center>
 ![strasbourg](https://c1.staticflickr.com/1/655/31357621880_54da948b9c_c.jpg)
+</center>
 
 &ensp; I went to Strasbourg today, for the first time. It's like Freiburg, just like Freiburg - Freiburg in a parallel universe. The signs were in French; but the cobblestone streets, the thick fog in winter that gives the sky a gray-slate color, and the familiarly Germanic cross-hatchings on the ancient houses are a reminder of just how close this place is to the border. It was lovely - too many people, maybe (*capitale de Noël*), but lovely. 
 
