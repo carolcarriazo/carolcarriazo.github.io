@@ -5,7 +5,7 @@ date:   2016-12-18 23:00
 category: blog
 ---
 
-&ensp; I went to Strasbourg today, for the first time. It's like Freiburg, just like Freiburg - Freiburg in a parallel universe. The signs were in French; but the cobblestone streets, the thick fog in winter that gives the sky a gray-slate color, and the familiarly Germanic cross-hatchings on the ancient houses are a reminder of just how close this place is to the border. It was lovely - too many people, maybe ('*capitale de Noël*'), but lovely. 
+&ensp; I went to Strasbourg today, for the first time. It's like Freiburg, just like Freiburg - Freiburg in a parallel universe. The signs were in French; but the cobblestone streets, the thick fog in winter that gives the sky a gray-slate color, and the familiarly Germanic cross-hatchings on the ancient houses are a reminder of just how close this place is to the border. It was lovely - too many people, maybe (*capitale de Noël*), but lovely. 
 
 &ensp; In fact I have never been in so much of a hurry to get to someplace quiet, my room in this case. I sensed it as soon as I got on the return bus. I let the other girls in the group chat and I stared at the rain on the window, calmed, fascinated and saddened all at once by the reflection of the city lights in the droplets. Like some melting expressionist painting. Quieter. Then all of a sudden a heavy feeling in my chest - I hardly cry, but now I feel it rising, and suppress it - spontaneous sorrow.
 
