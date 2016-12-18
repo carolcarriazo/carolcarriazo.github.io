@@ -19,6 +19,6 @@ anyway. This is the sorrow: in a gray beautiful city, with people, but also unbe
 
 &ensp; And Jan: is proof that sex solves nothing. He is further from me than most of my friends. I'll break it off soon, I think.
 
-&ensp; I'm surrounded by men I love but can't fall in love with. In these moments I think back to all the other unrequiteds, or never-will-bes, or what-ifs: Darko, Cian, Pavan.
+&ensp; I'm surrounded by men I love but can't fall in love with. In these moments I think back to all the other unrequiteds, or never-will-bes, or what-ifs: Darko, Cian, Pavan. It's eating me alive. Work is the answer. Throw yourself into your work. You always forget about people when you do that.
 
 &ensp; I need to go back to Strasbourg alone. In the spring. I can't breathe with these girls around, it's too much energy.
