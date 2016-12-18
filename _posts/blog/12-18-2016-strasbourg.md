@@ -15,10 +15,10 @@ category: blog
 
 &ensp; Libby, bless her. But there's still a glass pane there, I'm not able to completely let myself go. Eddie was like breathing. Libby's a darling, but still something there --
 
-anyway. This is the sorrow: in a gray beautiful city, with people, but also unbearably lonely. Lonely, I hate the word, I deny it. On the bus ride home Victor is texting me about this girl he's probably going to marry but is still inexplicably broken off from and I want to yell in frustration, I adore him and I want to lose myself a bit and if his situation weren't so complicated, I might even want to fall a little bit in love. But even with him, the glass (in the form of Noemi). Daniel, the sweet Irish boy, also has a girl. 
+anyway. This is the sorrow: in a gray beautiful city, with people, but also unbearably lonely. Lonely, I hate the word, I deny it. On the bus ride home Victor is texting me about this girl he's probably going to marry but is still inexplicably broken off from and I want to yell in frustration. I adore him and I want to lose myself a bit and if his situation weren't so complicated, I might even want to fall a little bit in love. But even with him there's the glass (in the form of Noemi). Daniel, the sweet Irish boy, also has a girl. 
 
 &ensp; And Jan: is proof that sex solves nothing. He is further from me than most of my friends. I'll break it off soon, I think.
 
-&ensp; I am surrounded by men I love but cannot fall in love with. In these moments I think back to all the other unrequiteds, or never-will-bes, or what-ifs: Darko, Cian, Pavan.
+&ensp; I'm surrounded by men I love but can't fall in love with. In these moments I think back to all the other unrequiteds, or never-will-bes, or what-ifs: Darko, Cian, Pavan.
 
 &ensp; I need to go back to Strasbourg alone. In the spring. I can't breathe with these girls around, it's too much energy.
