@@ -10,9 +10,7 @@ category: blog
 
 &ensp; Yesterday after waking up around two (hate myself for it - do it anyway), I fell into the black hole of Wikipedia, and somehow found my way to Napoleon - more specifically, to contemporary accounts of his physical appearance:
 
-<center>
 ![napoleon](http://www.napoleon-series.org/images/research/napoleon/napoleonitaly.jpg)
-</center>
 
 >>"Had he not been so thin as to have a sickly air which was quite pitiful to see, one would have realized that he had unusually delicate features. The lines of his mouth in particular were full of charm."
 
