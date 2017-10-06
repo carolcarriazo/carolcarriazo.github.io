@@ -14,7 +14,9 @@ Anyway my bladder was creeping up on me, as it sometimes does. By the time I fum
 There’s a sublime pleasure in wetting oneself. It’s so warm. It’s almost a shame more people don’t get to experience it at this age. I at least have an excuse, vis-á-vis extreme urinary incontinence.
 
 But never mind about urine, let me tell you a story.
+
 ———
+
 “Come on, try,” she says. My sister is trying to teach me how to make a joke.
 
  My sister is nine years older than me, and I am four. (I may not be four, but I am certainly somewhere in between three and five, and I think four is an appropriate amount of sentience for the me in this story.)
@@ -37,7 +39,7 @@ At that  moment my sister was mid-sip and chortled in a fit of hysterical laught
 
 I was pleased with the reaction I had produced. I ran around the  house yelling, half at my parents.
 
-“Why did the chicken cross the road? To get some _heeyyy!" 
+“Why did the chicken cross the road? To get some *heeyyy*!" 
 
-"HEEEYYY!”_
+"*HEEEYYY*!”
 
