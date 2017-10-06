@@ -9,7 +9,7 @@ I pissed myself on the way in here.
 
 It’s one in the morning and I was on the road from Keefe, shuffling my absurdly pink strawberry milkshake between my reluctantly pink hands. It was too cold, too sweet, and too pink, and perfect, like a giant cup of Pepto-Bismol. I don’t recall Pepto-Bismol too well from my childhood, but I suppose it exists in the set of things containing collective nostalgia.
 
-Anyway my bladder was creeping up on me, as it sometimes does. By the time I fumbled my key into the door I was rocking back and forth like an autistic child. WIth my backpack on and everything I decided the most sensible thing to do was to plop myself down in the middle of a sufficiently vacant floor-space and give up.
+Anyway my bladder was creeping up on me, as it sometimes does. By the time I fumbled my key into the door I was rocking back and forth like an autistic child. With my backpack on and everything I decided the most sensible thing to do was to plop myself down in the middle of a sufficiently vacant floor-space and give up.
 
 There’s a sublime pleasure in wetting oneself. It’s so warm. It’s almost a shame more people don’t get to experience it at this age. I at least have an excuse, vis-á-vis extreme urinary incontinence.
 
