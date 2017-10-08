@@ -4,7 +4,7 @@ title:  childhood
 date:   2016-04-08 09:00:00
 category: poetry
 ---
-**Childhood**
+####Childhood
 
 The floor: do you remember? Once you did;  
 and all there was, were things that similarly  
@@ -20,4 +20,4 @@ Your ear is pressed to something – drainpipes thrum
 with water on the other side. They pull  
 you into their arms. No – you want to say.  
 The answer is there. Back there, back there –  
-What is it? Something lost to drainpipes, *s*omewhere.
+What is it? Something lost to drainpipes, somewhere.
