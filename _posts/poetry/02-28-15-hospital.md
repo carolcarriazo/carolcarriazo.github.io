@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  The Hospital
+title:  the hospital
 date:   2015-02-28 09:00:00
 category: poetry
 ---

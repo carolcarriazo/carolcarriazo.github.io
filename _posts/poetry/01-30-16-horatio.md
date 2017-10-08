@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Horatio’s Soliloquy
+title:  horatio’s soliloquy
 date:   2016-01-30 09:00:00
 category: poetry
 ---

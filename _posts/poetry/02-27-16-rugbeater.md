@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  The Rug-Beater
+title:  the rug-beater
 date:   2016-02-27 09:00:00
 category: poetry
 ---

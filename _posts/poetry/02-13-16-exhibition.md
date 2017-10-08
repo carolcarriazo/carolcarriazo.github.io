@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  An Exhibition
+title:  an exhibition
 date:   2016-02-13 09:00:00
 category: poetry
 ---

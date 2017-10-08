@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  The Sleeper dreams of waking
+title:  the sleeper dreams of waking
 date:   2015-02-06 09:00:00
 category: poetry
 ---
