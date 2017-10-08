@@ -20,4 +20,4 @@ Your ear is pressed to something – drainpipes thrum
 with water on the other side. They pull  
 you into their arms. No – you want to say.  
 The answer is there. Back there, back there –  
-What is it? Something lost to drainpipes, somewhere.
+What is it? Something lost to drainpipes, *s*omewhere.
