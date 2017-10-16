@@ -41,5 +41,4 @@ I was pleased with the reaction I had produced. I ran around the  house yelling,
 
 “Why did the chicken cross the road? To get some *heeyyy*!" 
 
-"*HEEEYYY*!”
 
