@@ -1,24 +1,13 @@
 ---
-# The scss file which include files from _sass/
+# Main Sass file
 ---
 
-@charset "utf-8";
-
-$base-font-family: Lato, Helvetica, Arial, sans-serif;
-$base-font-size:   16px;
-$small-font-size:  0.875rem;
-$base-line-height: 1.5;
-
-$text-color:   white;
-$bg-color: black;
-$link-color:   #53656e;
-$meta-color: purple;
-$meta-color-blog:   #a45743;
-$meta-color-found:	#a48843;
-$border-color: #ddd;
-
-@import url('https://fonts.googleapis.com/css?family=Lato');
-@import "color";
-@import "base";
-@import "layout";
-@import "syntax";
+// Import all partials from _sass
+@import
+    'reset',
+    'layout',
+    'typography',
+    'header',
+    'footer',
+    'resume'
+;

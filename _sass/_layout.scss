@@ -1,122 +1,129 @@
-@charset "utf-8";
-    html {
-        background-color: $bg-color;
-}
-main {
-    max-width: 48rem;
-    margin: 0 auto 3rem;
-    padding: 0 2rem;
+// @name Layout
+// @description All layout settings and styles
+
+// Default spacing unit
+$spacer: 20px;
+
+:root {
+    --primary-color: #F2D7D5;
+    --secondary-color: #E6B0AA;
+    --tertiary-color: #D98880;
+    --text-color: #1C2833;
+    --muted-dark-pink: #C16673;
+  }
+
+.navbar {
+  background-color: var(--tertiary-color);
+  padding: 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.site-header {
-    .site-title {
-        font-weight: 300;
-        > a {
-            color: $text-color;
-            text-decoration: none;
-            &:hover {
-                color: #a44360;
-            }
-        }
-    }
-    .site-nav {
-        > a {
-            color: $text-color;
-            text-decoration: none;
-            &:hover {
-                color: #b36767;
-            }
-            &.active {
-                border-bottom: 2px solid #666;
-            }
-            + a {
-                margin-left: 1rem;
-            }
-        }
-    }
+.navbar ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
-.posts {
-    list-style: none;
-    padding: 0;
-    > li {
-        line-height: 1.75;
-        span {
-        	
-            color: /* in index */ $meta-color-blog;
-            margin-right: 1.5rem;
-            font-size: $small-font-size;
-        }
-        a {
-            color: $text-color;
-            text-decoration: none;
-            &:hover {
-                color: white;
-                
-            }
-        }
-    }
+
+.navbar li {
+  margin: 0 1em;
 }
-.categories.blog {
-    list-style: none;
-    padding: 0;
-    > li {
-        line-height: 1.75;
-        span {
-        	
-            color: /* in index */ $meta-color-blog;
-            margin-right: 1.5rem;
-            font-size: $small-font-size;
-        }
-        a {
-            color: $text-color;
-            text-decoration: none;
-            &:hover {
-                color: white;
-                
-            }
-        }
-    }
+
+.navbar a {
+  color: var(--text-color);
+  text-decoration: none;
+  background: none;
+  padding: 0.25em 0.5em;
+  transition: background-color linear 0.2s;
 }
-.categories.found {
-    list-style: none;
-    padding: 0;
-    > li {
-        line-height: 1.75;
-        span {
-        	
-            color: /* in index */ $meta-color-found;
-            margin-right: 1.5rem;
-            font-size: $small-font-size;
-        }
-        a {
-            color: $text-color;
-            text-decoration: none;
-            &:hover {
-                color: white;
-                
-            }
-        }
-    }
+
+.navbar a:hover {
+  background-color: var(--muted-dark-pink);
 }
-.post {
+
+.about-page {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 1.5em;
+}
+
+.about-main {
+  width: calc(100% - 320px);
+}
+
+.about-sidebar {
+  width: 300px;
+  margin-left: 20px;
+}
+
+.about-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 1.5em;
+  }
+  
+  .about-title {
+    align-items: center;
+    font-size: 48px;
+    font-weight: 700;
+    margin-left: 0;
+  }
+  
+  .profile-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 600px;
+  }
+  
+  .profile-picture {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .profile-caption {
+    font-size: 12px;
+    font-size: 1rem;
+    font-weight: 300;
+    margin-top: 0.5em;
+  }
+  
+  .about-content {
+    text-align: left;
+    max-width: 800px;
+
+  }  
+
+  title:hover {
+    font-weight: 900;
+}
+
+body {
+    background-color: #F2D7D5;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 $spacer;
+}
+
+.section-title {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size:24px;
+    margin-bottom: ($spacer * 2);
+    text-align: center;
     position: relative;
-    .post-header {
-    	color: #a44360;
-        text-align: center;
-        margin-bottom: 0;
-    }
-    .post-meta {
-        margin: 0;
-        text-align: center;
-        color: /* in post */ $meta-color-blog;
-        font-size: $small-font-size;
-    }
 }
-@media screen and (max-width: 48rem) {
-    .site-header {
-        .site-title,
-        .site-nav {
-            text-align: center;
-        }
-    }
+
+.section-title:hover {
+    font-weight: 900;
 }

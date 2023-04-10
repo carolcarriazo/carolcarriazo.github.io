@@ -1,15 +1,15 @@
-title: carol's blog
+# Jekyll Resume Theme
+
+# Site settings
+title: Carolina Carriazo
+email: carolcarriazo@gmail.com
+description: Tech writer, developer, and occasional poet.
 baseurl: ""
-description: carving out my little corner of internet.
-url: carolcarriazo.github.io
-date_format: "%d-%m-%Y"
+url: ""
+location: Chicago, IL
+github_username:  carolcarriazo
+codepen_username:  carolcarriazo
+email_address: carolcarriazo@@gmail.com
 
 # Build settings
-kramdown:
-  input: GFM
-permalink: pretty
-
-# Third-party services
-# just leave someone empty to disable it
-google_analytics:
-email: carolcarriazo@gmail.com
+markdown: kramdown

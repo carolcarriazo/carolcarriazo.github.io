@@ -1,0 +1,14 @@
+// @name Typography
+// @description All typography settings and styles
+
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700|Helvetica+Neue:400,700,900);
+
+// Our variables
+$base-font-family: "Lato", Helvetica, Arial, sans-serif;
+$base-font-size:   16px;
+
+body {
+    font-family: $base-font-family, sans-serif;
+    font-size: $base-font-size;
+    line-height: 1.4;
+}
