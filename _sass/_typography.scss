@@ -19,15 +19,21 @@ body {
     }
         }
 
-.section-title, h1 {
+h1, h3.section-title {
     font-family: "Lato";
     font-weight: 800;
         }
+
+h3.section-title {
+    font-family: "Lato";
+    font-weight: 400;
+    }
+        
 
 .navbar, .resume, .about-content, .profile-caption, .poem_title, .poem-list, .poem-item, .post-content, .page-content, p {
     font-family: "Poppins";
 }
 
-h2, h3, h1.about-title {
+h2, h1.about-title {
     font-family: $base-font-family;
 }
