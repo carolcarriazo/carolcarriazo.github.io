@@ -3,10 +3,10 @@ layout: poem
 title: "Having a Coke with You"
 date: 1960-04-01
 ---
-# Having a Coke with You
+## Having a Coke with You
 
-<em> by Frank O'Hara</em>
-
+<em> by Frank O'Hara</em>  
+<br>
 is even more fun than going to San Sebastian, Irún, Hendaye, Biarritz, Bayonne  
 or being sick to my stomach on the Travesera de Gracia in Barcelona  
 partly because in your orange shirt you look like a better happier St. Sebastian  

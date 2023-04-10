@@ -2,7 +2,7 @@
 // @description All typography settings and styles
 
 @import url(https://fonts.googleapis.com/css?family=Lato:400,700|Helvetica+Neue:400,700,900);
-@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;700&display=swap);
 
 // Our variables
 $base-font-family: "Lato", Helvetica, Arial, sans-serif;
@@ -19,7 +19,7 @@ body {
     }
         }
 
-h1, h3.section-title {
+h2 {
     font-family: "Lato";
     font-weight: 800;
         }
@@ -28,12 +28,24 @@ h3.section-title {
     font-family: "Lato";
     font-weight: 400;
     }
-        
 
 .navbar, .resume, .about-content, .profile-caption, .poem_title, .poem-list, .poem-item, .post-content, .page-content, p {
     font-family: "Poppins";
+    font-weight: 300;
 }
 
-h2, h1.about-title {
+h1.about-title, h1 {
     font-family: $base-font-family;
+}
+
+dt {
+    font-weight: 700;
+}
+
+a {
+    font-weight: 300;
+}
+
+a:hover {
+    font-weight: 700;
 }

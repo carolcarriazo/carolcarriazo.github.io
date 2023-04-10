@@ -47,6 +47,34 @@ $spacer: 20px;
   background-color: var(--muted-dark-pink);
 }
 
+// headers
+
+header {
+  padding: ($spacer * 2) 0;
+  margin-bottom: ($spacer * 2);
+}
+
+.intro {
+  margin-bottom: ($spacer * 2);
+  &__pre, &__post {
+      text-transform: uppercase;
+      letter-spacing: 2px;
+  }
+
+  &__main {
+      font-family: "Helvetica Neue";
+      font-size: 3rem;
+      line-height: 1.2;
+      font-weight: bold;
+      margin: 10px 0 20px;
+
+      @media(min-width: 640px) {
+          font-size: 2.2rem;
+          max-width: 60%;
+      }
+  }
+}
+
 // home page and resume
 
 body {
@@ -63,11 +91,11 @@ a:hover {
   opacity: 1;
 }
 
-.title {
-  margin: 0;
-  font-weight: bold;
-  font-size: 1.2rem;
-}
+// .title {
+//   margin: 0;
+//   font-weight: 900;
+//   font-size: 1.2rem;
+// }
 
 .container {
   max-width: 1200px;
@@ -159,11 +187,12 @@ dt, dd {
 }
 
 
-.about-header {
+header.about-header {
+    padding: 0;
+    margin-bottom: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 1.5em;
   }
   
   .about-title {
@@ -204,13 +233,29 @@ dt, dd {
 
 h1 {
   font-size: 3rem;
+  line-height: 1.2;
+  font-weight: bold;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 $spacer;
+  @media(min-width: 640px) {
+      padding: ($spacer * 5) 0 ($spacer * 2);
+      margin-bottom: ($spacer * 3);
+  }
+}
+
+h2 {
+  font-size: 3rem;
         line-height: 1.2;
         font-weight: bold;
         margin: 20px 20px 20px;
 }
 
 p {
-  margin: 10px 20px 20px;
+  font-size: 1.2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 $spacer;
 }
 
 p em, p i {
@@ -218,13 +263,15 @@ p em, p i {
 }
 
 .poem-title a {
+  font-size: 1.5rem;
   font-weight: bold;
   text-decoration: none;
 }
 
 .poem-date {
+  font-size: 1.5rem;
   font-weight: bold;
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: rgba(255, 255, 255, .8);
   padding: 2px 4px;
   border-radius: 1px;
 }
@@ -250,17 +297,13 @@ p em, p i {
   margin-bottom: 1em;
   border-radius: 4px;
   transition: background-color 0.3s;
-  background-color: rgba(193, 102, 115, 0.3);
+  background-color: rgba(193, 102, 115, 0.7);
   padding: 0 16px; /* Add padding to the left and right sides */
 
 }
 
 .poem-item:hover {
-  background-color: rgba(193, 102, 115, 0.7);
-}
-
-.poem-item:hover .poem-date {
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(28, 40, 51, 0.7);
 }
 
 .poetry-content {
