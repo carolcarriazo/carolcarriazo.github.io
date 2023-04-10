@@ -82,10 +82,10 @@ $spacer: 20px;
   }
   
   .profile-picture {
-    border-radius: 50%;
-    width: 200px;
-    height: 200px;
-    object-fit: cover;
+    border-radius: 80%;
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
   }
   
   .profile-caption {

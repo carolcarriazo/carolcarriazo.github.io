@@ -2,6 +2,7 @@
 // @description All typography settings and styles
 
 @import url(https://fonts.googleapis.com/css?family=Lato:400,700|Helvetica+Neue:400,700,900);
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap);
 
 // Our variables
 $base-font-family: "Lato", Helvetica, Arial, sans-serif;
@@ -11,4 +12,42 @@ body {
     font-family: $base-font-family, sans-serif;
     font-size: $base-font-size;
     line-height: 1.4;
+}
+
+.intro {
+    &__pre, &__post {
+        font-family: "Poppins";
+    }
+        }
+
+.section-title {
+    font-family: "Lato";
+    font-weight: 400;
+        }
+
+.navbar {
+    font-family: "Poppins";
+}
+
+.experience {
+    font-family: "Poppins";
+
+}
+
+.education {
+    font-family: "Poppins";
+
+}
+
+.about-header {
+    font-family: "Lato";
+}
+
+.about-content {
+    font-family: "Poppins";
+}
+
+.profile-caption {
+    font-family: "Poppins";
+
 }
