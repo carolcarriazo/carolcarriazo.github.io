@@ -1,9 +1,50 @@
 <header>
     <div class="container">
-        <div class="intro">
-            <p class="intro__pre">Hi, I'm Carolina.</p>
-            <p class="intro__main">I'm a tech writer, developer, and occasional poet.</p>
-            <p class="intro__post">{{ site.location }}</p>
-        </div>
+      <div class="intro">
+        <p class="intro__pre" data-text="Hi, I'm Carolina.">Hi, I'm Carolina.</p>
+        <p class="intro__main" data-text="I'm a tech writer, developer, and occasional poet.">I'm a tech writer, developer, and occasional poet.</p>
+        <p class="intro__post" data-text="{{ site.location }}">{{ site.location }}</p>
+      </div>
     </div>
-</header>
+  </header>
+  
+  
+  <script>
+    const introElements = Array.from(document.querySelectorAll(".intro p"));
+  
+    let currentElementIndex = 0;
+    let currentCharIndex = 0;
+  
+    function typeOutText() {
+      const currentElement = introElements[currentElementIndex];
+  
+      if (currentElementIndex < introElements.length) {
+        const currentText = currentElement.dataset.text;
+  
+        if (currentCharIndex < currentText.length) {
+          currentElement.innerHTML += currentText[currentCharIndex];
+          currentCharIndex++;
+  
+          const randomInterval = Math.floor(Math.random() * (100 - 50) + 50);
+          setTimeout(typeOutText, randomInterval);
+        } else {
+          currentCharIndex = 0;
+          currentElementIndex++;
+          typeOutText();
+        }
+      }
+    }
+  
+    window.addEventListener("load", () => {
+      introElements.forEach((element) => {
+        element.innerHTML = "";
+      });
+  
+      setTimeout(typeOutText, 100); // Add a small delay before starting the typing effect
+    });
+  </script>
+  
+  
+  
+  
+  

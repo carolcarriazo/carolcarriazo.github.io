@@ -6,11 +6,10 @@
 
 // Our variables
 $base-font-family: "Lato", Helvetica, Arial, sans-serif;
-$base-font-size:   16px;
 
 body {
     font-family: $base-font-family, sans-serif;
-    font-size: $base-font-size;
+    font-size: 16px;
     line-height: 1.4;
 }
 
@@ -20,34 +19,15 @@ body {
     }
         }
 
-.section-title {
+.section-title, h1 {
     font-family: "Lato";
     font-weight: 400;
         }
 
-.navbar {
+.navbar, .resume, .about-content, .profile-caption, .poem_title, .poem-list, .poem-item, .post-content, .page-content, p {
     font-family: "Poppins";
 }
 
-.experience {
-    font-family: "Poppins";
-
-}
-
-.education {
-    font-family: "Poppins";
-
-}
-
-.about-header {
-    font-family: "Lato";
-}
-
-.about-content {
-    font-family: "Poppins";
-}
-
-.profile-caption {
-    font-family: "Poppins";
-
+.about-header, h2, h3 {
+    font-family: $base-font-family;
 }

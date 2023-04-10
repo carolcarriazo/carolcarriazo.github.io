@@ -13,3 +13,7 @@ email_address: carolcarriazo@@gmail.com
 
 # Build settings
 markdown: kramdown
+
+collections:
+  poems:
+    output: true

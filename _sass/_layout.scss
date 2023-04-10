@@ -4,6 +4,8 @@
 // Default spacing unit
 $spacer: 20px;
 
+// base colors
+
 :root {
     --primary-color: #F2D7D5;
     --secondary-color: #E6B0AA;
@@ -11,6 +13,8 @@ $spacer: 20px;
     --text-color: #1C2833;
     --muted-dark-pink: #C16673;
   }
+
+  // navbar
 
 .navbar {
   background-color: var(--tertiary-color);
@@ -43,6 +47,96 @@ $spacer: 20px;
   background-color: var(--muted-dark-pink);
 }
 
+// home page and resume
+
+body {
+  background-color: var(--primary-color);
+}
+
+a {
+  display: inline-block;
+  color: #f7f7f7 !important;
+  transition: all linear 0.2s;
+}
+
+a:hover {
+  opacity: 1;
+}
+
+.title {
+  margin: 0;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 $spacer;
+}
+
+.section-title {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size:24px;
+  margin-bottom: ($spacer * 2);
+  text-align: center;
+  position: relative;
+}
+
+.section-title:hover {
+  font-weight: 900;
+}
+
+dl {
+  margin-bottom: $spacer;
+}
+
+dt, dd {
+  display: inline-block;
+  vertical-align: top;
+  margin-bottom: $spacer;
+}
+
+@media(min-width: 640px) {
+  dt, dd {
+      margin-bottom: 60px;
+  }
+
+  .resume {
+      dt {
+          width: 30%;
+          padding-right: ($spacer * 2);
+      }
+      dd {
+          width: 70%;
+      }
+      position: relative;
+      border-radius: 8px;
+      padding: 1em;
+  }
+
+  .resume::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: #D98880;
+      opacity: 0.3;
+      border-radius: 8px;
+      z-index: -1;
+      transition: opacity 0.3s ease;
+  }
+
+  .resume:hover::before {
+      opacity: .7;
+    }
+}
+
+// about page
+
 .about-page {
   display: flex;
   justify-content: space-between;
@@ -63,7 +157,6 @@ $spacer: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-family: 'Lato', sans-serif;
     margin-bottom: 1.5em;
   }
   
@@ -72,6 +165,11 @@ $spacer: 20px;
     font-size: 48px;
     font-weight: 700;
     margin-left: 0;
+  }
+
+  .about-content {
+    text-align: left;
+    max-width: 800px;
   }
   
   .profile-section {
@@ -82,10 +180,10 @@ $spacer: 20px;
   }
   
   .profile-picture {
-    border-radius: 80%;
-    width: 300px;
-    height: 300px;
-    object-fit: contain;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
   }
   
   .profile-caption {
@@ -93,37 +191,74 @@ $spacer: 20px;
     font-size: 1rem;
     font-weight: 300;
     margin-top: 0.5em;
-  }
-  
-  .about-content {
-    text-align: left;
-    max-width: 800px;
-
   }  
 
-  title:hover {
-    font-weight: 900;
+// my poems page
+
+h1 {
+  font-size: 3rem;
+        line-height: 1.2;
+        font-weight: bold;
+        margin: 20px 20px 20px;
 }
 
-body {
-    background-color: #F2D7D5;
+p {
+  margin: 10px 20px 20px;
 }
 
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 $spacer;
+p em, p i {
+  font-style: italic;
 }
 
-.section-title {
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    font-size:24px;
-    margin-bottom: ($spacer * 2);
-    text-align: center;
-    position: relative;
+.poem-title a {
+  font-weight: bold;
+  text-decoration: none;
 }
 
-.section-title:hover {
-    font-weight: 900;
+.poem-date {
+  font-weight: bold;
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 2px 4px;
+  border-radius: 1px;
+}
+
+.poetry-table-container {
+  margin: 20px auto; /* Add top and bottom margins of 20px and center the table horizontally */
+  max-width: 80%; /* Set the container width to 80% of its parent element */
+}
+
+.poetry-table {
+  width: 100%; /* Set the table width to 100% of its container */
+}
+
+.poem-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.poem-item {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 1em;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+  background-color: rgba(193, 102, 115, 0.3);
+  padding: 0 16px; /* Add padding to the left and right sides */
+
+}
+
+.poem-item:hover {
+  background-color: rgba(193, 102, 115, 0.7);
+}
+
+.poem-item:hover .poem-date {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.poetry-content {
+  background-color: rgba(255, 255, 255, 0.4); /* low opacity white background */
+  padding: 16px; /* add padding around the paragraph text */
+  display: inline-block; /* change display to inline-block */
+  max-width: calc(100% - 16px);
 }

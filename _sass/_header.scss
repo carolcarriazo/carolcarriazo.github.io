@@ -1,8 +1,6 @@
 // @name Header
 // @description All header styles
 
-@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap);
-
 header {
     padding: ($spacer * 2) 0;
     margin-bottom: ($spacer * 2);
@@ -15,13 +13,13 @@ header {
 
 .intro {
     margin-bottom: ($spacer * 2);
-
     &__pre, &__post {
         text-transform: uppercase;
         letter-spacing: 2px;
     }
 
     &__main {
+        font-family: "Helvetica Neue";
         font-size: 3rem;
         line-height: 1.2;
         font-weight: bold;

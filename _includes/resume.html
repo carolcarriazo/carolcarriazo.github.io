@@ -1,5 +1,5 @@
 <h3 class="section-title">Work Experience</h3>
-<dl class="experience">
+<dl class="resume">
     {% for job in site.data.jobs %}
         <dt>
             <p class="title">{{ job.title }}</p>
@@ -13,7 +13,7 @@
 </dl>
 
 <h3 class="section-title">Education</h3>
-<dl class="education">
+<dl class="resume">
     {% for qualification in site.data.education %}
         <dt>
             <p class="title">{{ qualification.qualification }}</p>
@@ -26,7 +26,7 @@
     {% endfor %}
 </dl>
 <h3 class="section-title">Stacks and other skills</h3>
-<dl class="education">
+<dl class="resume">
     {% for qualification in site.data.skills %}
         <dt>
             <p class="title">{{ qualification.qualification }}</p>
