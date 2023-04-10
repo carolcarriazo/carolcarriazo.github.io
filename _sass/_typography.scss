@@ -21,13 +21,13 @@ body {
 
 .section-title, h1 {
     font-family: "Lato";
-    font-weight: 400;
+    font-weight: 800;
         }
 
 .navbar, .resume, .about-content, .profile-caption, .poem_title, .poem-list, .poem-item, .post-content, .page-content, p {
     font-family: "Poppins";
 }
 
-.about-header, h2, h3 {
+h2, h3, h1.about-title {
     font-family: $base-font-family;
 }
