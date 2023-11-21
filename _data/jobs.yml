@@ -1,7 +1,18 @@
 -   title: Technical Services Knowledge Engineer
-    company: MongoDB (Mar 2020 - present)
-    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    company: MongoDB
+    period: Mar 2020 - present
+    description: |
+     -  Author hundreds of new articles on behalf of our engineers to help customers and
+employees.
+    -  Code in Python for knowledge base tooling; for example, a Slack bot in Python to
+help employees better search our knowledge base and easily suggest new ideas to
+us.
+    - Maintain knowledge infrastructure, including Coveo (our backend search engine),
+Salesforce, MongoDB charts.
+    - Analyze and collect metrics on our article performance.
+    - Conducting regional training.
 
 -   title: Junior Technical Writer
-    company: Integral Ad Science (Sep 2018 - Mar 2020)
+    company: Integral Ad Science
+    period: Sep 2018 - Mar 2020
     description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
