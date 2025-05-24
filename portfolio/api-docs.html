@@ -1,0 +1,21 @@
+---
+layout: default
+title: "API Docs Samples"
+permalink: /portfolio/api-docs/
+---
+
+<link rel="stylesheet" href="https://unpkg.com/swagger-ui-dist/swagger-ui.css">
+
+<div id="swagger"></div>
+
+<script src="https://unpkg.com/swagger-ui-dist/swagger-ui-bundle.js"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        SwaggerUIBundle({
+            url: "/portfolio/openapi-sample.yml",
+            dom_id: "#swagger",
+            presets: [SwaggerUIBundle.presets.apis],
+            layout: "BaseLayout"
+        });
+    });
+</script>
