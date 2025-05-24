@@ -2,6 +2,7 @@
 layout: about
 title: My Poetry
 permalink: /my-poetry/
+published: false
 ---
 
 # My Poetry

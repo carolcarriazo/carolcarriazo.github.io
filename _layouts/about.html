@@ -1,8 +1,38 @@
-<html>
+<!-- _layouts/about.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
     {% include head.html %}
-    <body>
-        {% include navbar.html %}
-            {{ content }}
-        {% include footer.html %}
-    </body>
+</head>
+
+<body>
+    {% include navbar.html %}
+<div class="container">
+    <header class="about-header">
+        <h1 class="about-title">{{ page.title }}</h1>
+    </header>
+
+    <div class="about-page">
+        <div class="about-main">
+            <div class="about-content">
+                {{ content }}
+            </div>
+        </div>
+        <div class="about-sidebar">
+            <div class="profile-section">
+                <img class="profile-picture" src="/img/me.jpeg" alt="Profile Picture">
+                <figcaption class="profile-caption">Me recently, in Australia :)</figcaption>
+            </div>
+            <!-- Spotify widget -->
+            <iframe src="https://open.spotify.com/embed/playlist/6GPLkyNIAB53qseALxcWtp" width="300" height="380"
+                frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+            </div>
+    </div>
+    </div>
+</div>
+
+    {% include footer.html %}
+</body>
+
 </html>

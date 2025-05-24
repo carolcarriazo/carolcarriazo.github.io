@@ -1,22 +1,21 @@
-<h3 class="section-title">Work Experience</h3>
+<h3 class="section-title">Work experience</h3>
 <dl class="resume">
     {% for job in site.data.jobs %}
         <dt>
-            <p class="title">{{ job.title }}</p>
+            <p class="title"><strong>{{ job.title }}</strong></p>
             <p class="company">{{ job.company }}</p>
             <p class="period">{{ job.period }}</p>
         </dt><!--
-        --><dd>
-            <p>{{ job.description }}</p>
+        --><dd class="description">
+            {{ job.description | markdownify }}
         </dd>
     {% endfor %}
 </dl>
-
 <h3 class="section-title">Education</h3>
 <dl class="resume">
     {% for qualification in site.data.education %}
         <dt>
-            <p class="title">{{ qualification.qualification }}</p>
+            <p class="title"><strong>{{ qualification.qualification }}</strong></p>
             <p class="company">{{ qualification.school }}</p>
             <p class="period">{{ qualification.period }}</p>
         </dt><!--
@@ -29,7 +28,7 @@
 <dl class="resume">
     {% for qualification in site.data.skills %}
         <dt>
-            <p class="title">{{ qualification.qualification }}</p>
+            <p class="title"><strong>{{ qualification.qualification }}</strong></p>
             <p class="company">{{ qualification.school }}</p>
             <p class="period">{{ qualification.period }}</p>
         </dt><!--

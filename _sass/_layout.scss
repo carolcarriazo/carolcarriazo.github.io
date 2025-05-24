@@ -312,3 +312,17 @@ p em, p i {
   display: inline-block; /* change display to inline-block */
   max-width: calc(100% - 16px);
 }
+
+// Restore bullets in your Work Experience section
+.resume .description ul {
+  list-style-type: disc !important;
+  list-style-position: outside !important;
+  margin: 0.5em 0 0.5em 1.5em !important;
+  padding: 0 !important;
+}
+
+// Force true bold for titles & qualifications
+.resume .title strong,
+.resume .qualification strong {
+  font-weight: 700 !important;
+}
