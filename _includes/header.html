@@ -3,48 +3,61 @@
       <div class="intro">
         <p class="intro__pre" data-text="Hi, I'm Carolina.">Hi, I'm Carolina.</p>
         <p class="intro__main" data-text="I'm a tech writer, marketing manager, and occasional coder.">I'm a tech writer, marketing manager, and occasional coder.</p>
-        <p class="intro__post" data-text="{{ site.location }}">{{ site.location }}</p>
+        <div style="display: flex; align-items: center; gap: 12px;">
+          <p class="intro__post" data-text="📍 {{ site.location }}" style="margin: 0;">📍 {{ site.location }}</p>
+            <span class="intro__icon" data-text='<a href="https://www.linkedin.com/in/carolina-carriazo-a9569764/" target="_blank" rel="noopener"><img src="/img/linkedin.svg" alt="LinkedIn" width="28" height="28" class="icon"></a>'></span>
+            <span class="intro__icon" data-text='<a href="https://github.com/carolcarriazo" target="_blank" rel="noopener"><img src="/img/github.svg" alt="GitHub" width="28" height="28" class="icon"></a>'></span>
+            <span class="intro__icon" data-text='<a href="mailto:carolcarriazo@gmail.com"><img src="https://img.icons8.com/ios/50/new-post--v1.png" alt="Email" width="28" height="28" class="icon"></a>'></span>
+        </div>
+      </div>        
       </div>
     </div>
   </header>
   
   
   <script>
-    const introElements = Array.from(document.querySelectorAll(".intro p"));
-  
-    let currentElementIndex = 0;
-    let currentCharIndex = 0;
-  
-    function typeOutText() {
-      const currentElement = introElements[currentElementIndex];
-  
-      if (currentElementIndex < introElements.length) {
-        const currentText = currentElement.dataset.text;
-  
-        if (currentCharIndex < currentText.length) {
-          currentElement.innerHTML += currentText[currentCharIndex];
-          currentCharIndex++;
-  
-          const randomInterval = Math.floor(Math.random() * (100 - 50) + 10);
-          setTimeout(typeOutText, randomInterval);
-        } else {
-          currentCharIndex = 0;
-          currentElementIndex++;
-          typeOutText();
-        }
-      }
+  // Select all intro text elements and icon spans in order
+  const introElements = [
+    ...document.querySelectorAll(".intro__pre, .intro__post, .intro__icon"),  ];
+
+  let currentElementIndex = 0;
+  let currentCharIndex = 0;
+
+  function typeOutText() {
+    const currentElement = introElements[currentElementIndex];
+
+    if (!currentElement) return;
+
+    // If it's an icon, insert HTML instantly and move to next
+    if (currentElement.classList.contains("intro__icon")) {
+      currentElement.innerHTML = currentElement.dataset.text;
+      currentElementIndex++;
+      typeOutText();
+      return;
     }
-  
-    window.addEventListener("load", () => {
-      introElements.forEach((element) => {
-        element.innerHTML = "";
-      });
-  
-      setTimeout(typeOutText, 100); // Add a small delay before starting the typing effect
+
+    // Otherwise, type out text character by character
+    const currentText = currentElement.dataset.text;
+    if (currentCharIndex < currentText.length) {
+      currentElement.innerHTML += currentText[currentCharIndex];
+      currentCharIndex++;
+      const randomInterval = Math.floor(Math.random() * (100 - 50) + 10);
+      setTimeout(typeOutText, randomInterval);
+    } else {
+      currentCharIndex = 0;
+      currentElementIndex++;
+      typeOutText();
+    }
+  }
+
+  window.addEventListener("load", () => {
+    introElements.forEach((element) => {
+      element.innerHTML = "";
     });
-  </script>
-  
-  
-  
-  
-  
+    setTimeout(typeOutText, 100);
+  });
+</script>
+
+
+
+
